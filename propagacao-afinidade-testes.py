@@ -1,8 +1,9 @@
 # #############################################################################
-# Imports Affinity Propagation
+# Imports - Affinity Propagation
 from sklearn.cluster import AffinityPropagation
 from sklearn import metrics
 from sklearn.datasets.samples_generator import make_blobs
+
 # #############################################################################
 # Exemplo de clusterização com Propagação de Afinidade
 
@@ -27,8 +28,7 @@ n_clusters_ = len(cluster_centers_indices)
 
 
 # #############################################################################
-# Imports do Plot
-
+# Imports - Plot
 import matplotlib.pyplot as plt
 from itertools import cycle
 
